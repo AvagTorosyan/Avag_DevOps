@@ -4,8 +4,8 @@ read -p "Enter AWS region (e.g., us-east-1): " AWS_REGION
 read -p "Enter VPC CIDR block (e.g., 10.0.0.0/16): " VPC_CIDR_BLOCK
 read -p "Enter private subnet CIDR block (e.g., 10.0.1.0/24): " PRIVATE_SUBNET_CIDR_BLOCK
 read -p "Enter public subnet CIDR block (e.g., 10.0.2.0/24): " PUBLIC_SUBNET_CIDR_BLOCK
-read -p "Enter AMI ID (e.g., ami-0a0e5d9c7acc336f1): " AMI_ID
-read -p "Enter instance type (e.g., t2.micro): " INSTANCE_TYPE
+AMI_ID="ami-0a0e5d9c7acc336f1"
+INSTANCE_TYPE="t2.micro"
 read -p "Enter key name (e.g., Avag-Test-Vps): " KEY_NAME
 read -p "Enter private subnet name: " PRIVATE_SUBNET_NAME_TAG
 read -p "Enter public subnet name: " PUBLIC_SUBNET_NAME_TAG
